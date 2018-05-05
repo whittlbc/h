@@ -1,0 +1,1 @@
+NO_ENTRY = 'No help entry for tag "{}".'

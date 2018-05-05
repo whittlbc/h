@@ -1,0 +1,1 @@
+ENTRIES_DIR = '~/.h-entries'

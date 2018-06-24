@@ -8,3 +8,8 @@ def entry_filepath_from_tag(tag):
 
 def create_empty_file(path):
   open(path, 'a').close()
+
+
+def upsert_entries_dir():
+  if not os.path.exists(ENTRIES_DIR):
+    os.mkdir(ENTRIES_DIR)
